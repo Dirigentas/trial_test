@@ -1,13 +1,52 @@
-.container {
-    width: 700px;
-    margin: 50px calc((100% - 700px) / 2);
-    background-color: yellow;
-}
-
 body {
-    background-color: aqua;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri; /*galima dėti ir į *, arba atskirai, jei norima tik paveldimumo, o ne kad kiekvienam individualiai taikytų*/
 
+}
+.main-content {
+    width: 700px;
+    margin: 50px calc((100% - 700px) / 2);
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 22%;
+    text-align: center;
+    
+}
+
+.image-box {
+    background-color: aquamarine;
+    width: 100%;
+    aspect-ratio: 1;
+}
+.headline {
+    font-weight: bold;
+    color: #E5786A;
+    text-transform: uppercase;
+    height: 2em;
+    margin-top: 10px;
+}
+
+@media (max-width: 750px) {
+    .main-content {
+        width: 500px;
+        margin: 50px calc((100% - 500px) / 2)
+    }
+}
+@media (max-width: 550px) {
+    .container {
+        padding: 0 20px;
+    }
+    .main-content {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .column {
+        width: 100%;
+    }
 }
