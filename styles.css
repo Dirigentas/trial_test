@@ -1,0 +1,13 @@
+.container {
+    width: 700px;
+    margin: 50px calc((100% - 700px) / 2);
+    background-color: yellow;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri; /*galima dėti ir į *, arba atskirai, jei norima tik paveldimumo, o ne kad kiekvienam individualiai taikytų*/
+
+}
