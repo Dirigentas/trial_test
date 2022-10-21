@@ -2,7 +2,7 @@
 
 _40 group trial test_
 
-Site published at: [GitHub pages](https://dirigentas.github.io/4_coming_soon/)
+Site published at: [GitHub pages](https://dirigentas.github.io/trial_test/)
 
 
 ## Authors
