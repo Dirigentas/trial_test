@@ -36,7 +36,8 @@ img {
     width: 60%;
     position: relative;
     top: calc((50% - 28px));
-    transform:translateY(-50%)
+    transform:translateY(-50%);
+    filter: invert(100%)
 }
 .headline {
     font-weight: bold;
